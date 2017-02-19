@@ -3,13 +3,19 @@
     <head>
         <title>My calculator</title>
         <link rel="stylesheet" href="style.CSS" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     </head>
     <body>
         <h1 id="title">My calculator</h1>
         <div id="keypad">
-            <table border="2">
+            <table>
                 <tr>
-                    <td colspan="4" id="display-bar" height="20px" ></td>
+                    <td colspan="4" height="20px"><div id="display-bar"></div></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><div id="brand">JR9000</div></colspan></td>
                 </tr>
                     <tr>
                         <td><input type="button" value ="9" onclick="display(9)"/></td>
